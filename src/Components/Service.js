@@ -3,7 +3,7 @@ import ServiceApi from './serviceapi'
 import ServiceCard from './ServiceCard';
 import Footer from './Footer';
 const Service = () => {
-  const [service,setservice]=useState(ServiceApi);
+  const [service]=useState(ServiceApi);
   return (
     <div>
       <div className='section-contact'>

@@ -14,7 +14,7 @@ const unique=[...new Set(Menu1.map((elem)=>
     console.log(unique);
 const Menucards = () => {
     const [menu,setmenu]=useState(Menu1);
-    const [menuitem,setmenuitem]=useState(unique);
+    const [menuitem]=useState(unique);
 
    const filteritem=(cateitem)=>
    {

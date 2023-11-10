@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 import Menucards from './Menucards';
 const Home = () => {
-  const [about,setabout]=useState(AboutApi);
+  const [about]=useState(AboutApi);
   // setabout();
   return (
     <div>

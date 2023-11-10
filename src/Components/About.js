@@ -4,7 +4,7 @@ import AboutApi from './aboutapi'
 import AboutChef from './AboutChef';
 import Footer from './Footer';
 const About = () => {
-  const [about,setabout]=useState(AboutApi);
+  const [about]=useState(AboutApi);
   return (
     <div>
        <div className='section-contact'>
