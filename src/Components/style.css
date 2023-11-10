@@ -1,0 +1,380 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#navbarback{
+    background-color:rgb(1, 1, 26);
+}
+.navbar-brand{
+    margin-left: 10px;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: orange;
+}
+.navbar-brand:hover{
+    color: orange;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: larger;
+}
+.nav-link{
+    margin: 10px;
+    color: aliceblue;
+    font-weight: bolder;
+}
+.nav-link:hover{
+  color: orange;
+}
+#home{
+    color: aliceblue;
+    font-weight: bolder;
+}
+#home:hover{
+    color: orange;
+}
+#book{
+    
+    margin-right: 100px;
+    background-color: #de7f27;
+    border-radius: 5px;
+    color: white;
+    width: 200px;
+    
+    text-align: center;
+
+}
+#book:hover{
+    background-color: #e99444;
+
+}
+
+
+.section-contact::before {
+
+    content: "";
+    background: url('./Images/3.jpg') no-repeat center center/cover;
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+.text{
+    padding-top: 200px;
+    height: 500px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.contact-form-head{
+    font-size: larger;
+    color: #de7f27;
+    text-align: center;
+}
+.contact-form-second{
+    text-align: center;
+}
+.contact-form-input{
+    
+    height: 700px;
+}
+.form-inner{
+    margin-top: 40px;
+    margin-left: 450px;
+    
+    /* padding: 30px; */
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+input{
+
+    width: 500px;
+    height: 50px;
+    padding: 20px;
+}
+.form-button{
+    font-size: larger;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 50px;
+    width: 500px;
+    background-color: #de7f27;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+.form-button:hover{
+    background-color: #e99444;
+}
+textarea {
+    padding: 10px;
+}
+.Menu-card{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-self: auto;
+    margin: 20px;
+}
+
+.Menu-inner{
+    /* flex-basis: 100px; */
+    box-shadow: 3px 3px 10px black;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.Menu-button{
+    /* border: 2px solid black; */
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Menu-button button{
+    width: 100px;
+    background-color: #f77d0b;
+    color: white;
+    border-radius: 5px;
+     margin: 50px;
+     border:none;
+     padding: 10px;
+     text-align: center;
+     font-weight: bolder;
+    
+    
+
+}
+.outer-service{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-self: auto;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+/* .inner-service:hover{
+    background-color: #f48e2e;
+    color: aliceblue;
+} */
+
+.inner-service{
+    /* border: 5px solid black; */
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 3px 3px 2px black;
+    
+    
+}
+.service-card h1{
+    color: #f77d0b;
+}
+.service-card h1:hover{
+    color:white;
+}
+.inner-service:hover{
+    color:white;
+    background-color: #e99444;
+}
+
+.spoonicon{
+    color: #f77d0b;
+}
+.aboutpics {
+    /* border:2px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    /* flex-wrap: wrap; */
+   
+    height: 500px;
+}
+.pics-about{
+    /* border:2px solid black; */
+    width: 500px;
+}
+.aboutpics img{
+    width: 200px;
+    margin: 20px;
+    /* border:2px solid black; */
+}
+.about-info{
+    /* border:2px solid black; */
+    width: 600px;
+    padding: 20px;
+}
+.about-head-info{
+    /* border: 4px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Chef-card{
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: auto;
+    
+}
+
+.Chef-inner{
+    /* flex-basis: 100px; */
+    box-shadow: 3px 3px 6px black;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.outer-footer{
+    /* border: 2px solid black; */
+    height: 450px;
+    background-color:rgb(1, 1, 26);
+    
+}
+.inner-footer{
+    /* border: 2px solid black; */
+    /* margin: 20px; */
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+
+
+}
+
+.footer{
+    /* border: 2px solid black; */
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.footer h1{
+    color: #f77d0b;
+    font-size: small;
+}
+.footer h5 a{
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer h5 {
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 20px;
+    
+}
+#icon_footer{
+    color: #ffffff;
+}
+.r-icons{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    margin: 20px;
+    font-size: 30px;
+    align-items: center;
+}
+
+.footer p{
+    color: #ffffff;
+}
+.footer-input{
+    width: 275px;
+}
+.footer-button{
+    margin-top: 20px;
+    margin-left: 100px;
+    background-color: #f77d0b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+
+.home-back::before {
+
+    content: "";
+    background: url('./Images/pizza.jpg') no-repeat center center/cover;
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+
+
+.home-head{
+    /* border: 2px solid black; */
+    padding:50px;
+    height: 400px;
+    
+
+    
+}
+
+
+.inner-home-head{
+    /* border: 2px solid black; */
+    width: 400px;
+    color:#ffffff;
+    font-weight: bolder;
+    font-size: large;
+}
+
+#home_button{
+    margin-left: 120px;
+    color: #ffffff;
+    background-color: #f77d0b;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+}
+
+#home_button:hover{
+    background-color:#e27917
+}

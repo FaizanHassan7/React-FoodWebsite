@@ -1,0 +1,67 @@
+const Menu1=[
+    {
+        id:1,
+        category:'BreakFast',
+        imgsrc:'./Images/1.jpg',
+        title:'Chicken Burger',
+        price:'$100',
+        description:  'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+    },
+    {
+        id:2,
+        category:'BreakFast',
+        imgsrc:'./Images/1.jpg',
+        title:'Tikka Shawarma',
+        price:'$120',
+        description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+    },
+    {
+        id:3,
+        category:'BreakFast',
+        imgsrc:'./Images/1.jpg',
+        title:'Fagita Shawarma ',
+        price:'$140',
+        description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+    },
+    {
+        id:4,
+        category:'Lunch',
+        imgsrc:'./Images/1.jpg',
+        title:'Big Mac Burger',
+        price:'$160',
+        description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+    },
+    {
+        id:5,
+        category:'Lunch',
+        imgsrc:'./Images/1.jpg',
+        title:'Small Pizza',
+        price:'$180',
+        description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+    },
+    {
+        id:6,
+        category:'BreakFast',
+        imgsrc:'./Images/1.jpg',
+        title:'Egg&Bread',
+        price:'$200',
+        description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+    },
+    {
+        id:7,
+        category:'Dinner',
+        imgsrc:'./Images/1.jpg',
+        title:'Big Cheese Pizza',
+        price:'$220',
+        description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+    },
+    {
+    id:8,
+    category:'Dinner',
+    imgsrc:'./Images/1.jpg',
+    title:'Special Dinner',
+    price:'$300',
+    description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',},
+];
+
+export default Menu1;
